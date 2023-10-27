@@ -13,15 +13,15 @@ class overview
 			void get_dat()
 			{
 				
-				cout<<"enter your name";
+				cout<<"enter your name="<<endl;
 				gets(name);
-				cout<<"enter your age ";
+				cout<<"enter your age="<<endl;
 				cin>>age;
-				cout<<"enter your weigth";
+				cout<<"enter your weigth="<<endl;
 				cin>>weight;
-				cout<<"enter your blood group";
+				cout<<"enter your blood group="<<endl;
 				cin>>b_group;
-				cout<<"enter your height";
+				cout<<"enter your height="<<endl;
 				cin>>height;
 				
 			}
@@ -80,31 +80,31 @@ class overview
 		
 			if(get_weight()==1)
 			{
-				cout<<"your body is healthy\n";
+				cout<<"your body is healthy"<<endl;
 			}
 			else if(get_weight()==2)
 			{
-				cout<<"your body is in normal condition\n";
+				cout<<"your body is in normal condition\n"<<endl;
 			}
 			
 			else if(get_weight()==3)
 			{
-			cout<<"your body is overweighted reduce your weight either it will cause health issue \n";
+			cout<<"your body is overweighted reduce your weight either it will cause health issue"<<endl;
 			}
 			else if(get_weight()==4)
 			{
-				cout<<"obese 1";
+				cout<<"obese 1"<<endl;
 				cout<<"you can have disease like-colloestrol,coma,sleep disorder,dandruff concern with dr either case will be serious"<<endl;
 			}
 			else if(get_weight()==5)
 			{
-				cout<<"obese 2";
+				cout<<"obese 2"<<endl;
 				cout<<"you can have disease like-colloestrol,coma,sleep disorder,dandruff concern with dr you are in second stage of obese"<<endl;	
 			}
 			else if(get_weight()==6)
 			{
-				cout<<"obese 3";
-			cout<<"serious case !!!!!!!!!!";
+			cout<<"obese 3"<<endl;
+			cout<<"serious case !!!!!!!!!!"<<endl;
 			cout<<"you can have disease like-colloestrol,coma,sleep disorder,dandruff quickly concern with dr you are in 2nd stage your case is serious "<<endl;	
 			}
 		}
@@ -148,136 +148,136 @@ class cause : public overview
 			}
 			void disp_data()
 			{
-			cout<<"if you have normal disease like-\n ";
-			cout<<"fever=1\ncold=2\nheadache=3\ndengue=4\nchicken pox=5\nsneeze=6\nvomiting=7\nfood poisning=8\nbody pain=9\n";
-			cout<<"diarrhea=10\neye irritation=11\nskin rashes=12\nthroat pain=13\ndiabetes satge 1 =14\nurinary tract infection=15\nrabies=16\n";
-			cout<<"fatty liver=17\npneumonia=18\njaundice=19\ntyphoid=20\nbreathing trouble=21\nanxiety=22\nhair fall=23\nacne=24\n";
+			cout<<"if you have normal disease like- "<<endl;
+			cout<<"fever=1\ncold=2\nheadache=3\ndengue=4\nchicken pox=5\nsneeze=6\nvomiting=7\nfood poisning=8\nbody pain=9"<<endl;
+			cout<<"diarrhea=10\neye irritation=11\nskin rashes=12\nthroat pain=13\ndiabetes satge 1 =14\nurinary tract infection=15\nrabies=16"<<endl;
+			cout<<"fatty liver=17\npneumonia=18\njaundice=19\ntyphoid=20\nbreathing trouble=21\nanxiety=22\nhair fall=23\nacne=24"<<endl;
 			}
 			void disp_med()
 			{
 			for(;;)
 			{
-			cout<<"\n\nenter the respective number of the disease for which you want medicine";
+			cout<<"\n\nenter the respective number of the disease for which you want medicine"<<endl;
 			cin>>caus;	
 				if(caus==1)
 				{
-					cout<<"medicine....\n";
-					cout<<"paracetamol or crocin";
+					cout<<"medicine...."<<endl;
+					cout<<"paracetamol or crocin"<<endl;
 				}
 				else if(caus==2)
 				{
-					cout<<"medicine....\n";
-					cout<<"analgesic or aspirin";
+					cout<<"medicine....."<<endl;
+					cout<<"analgesic or aspirin"<<endl;
 			    }
 			    else if(caus==3)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"ibuprofen and bed rest";
+					cout<<"medicine...."<<endl;
+					cout<<"ibuprofen and bed rest"<<endl;
 				}
 				else if(caus==4)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"paracetamol,asprin,caripill and dolo650 ";
+					cout<<"medicine...."<<endl;
+					cout<<"paracetamol,asprin,caripill and dolo650 "<<endl;
 				}
 				else if(caus==5)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"analgesic,antihistamine,sitavig and zovirax";
+					cout<<"medicine...."<<endl;
+					cout<<"analgesic,antihistamine,sitavig and zovirax"<<endl;
 				}
 				else if(caus==6)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"paracetamol,cetirizine and sipla ";
+					cout<<"medicine...."<<endl;
+					cout<<"paracetamol,cetirizine and sipla"<<endl;
 				}
 				else if(caus==7)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"ors,bismuth subsalicylate and pantagra40";
+					cout<<"medicine....."<<endl;
+					cout<<"ors,bismuth subsalicylate and pantagra40"<<endl;
 				}
 				else if(caus==8)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"bismuth subsalicylate and ors";
+					cout<<"medicine....."<<endl;
+					cout<<"bismuth subsalicylate and ors"<<endl;
 				}
 				else if(caus==9)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"ors , imodium and bismuth subsalicylate ";
+					cout<<"medicine......"<<endl;
+					cout<<"ors , imodium and bismuth subsalicylate "<<endl;
 				}
 				else if(caus==10)
 			   	{
-					cout<<"medicine....\n";
-					cout<<" cetirizine , zyxal and claritin";
+					cout<<"medicine......"<<endl;
+					cout<<" cetirizine , zyxal and claritin"<<endl;
 				}
 				else if(caus==11)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"hydrocortisone cream";
+					cout<<"medicine......"<<endl;
+					cout<<"hydrocortisone cream"<<endl;
 				}
 				else if(caus==12)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"acetaminophen,ibuprofen and aspirin";
+					cout<<"medicine...."<<endl;
+					cout<<"acetaminophen,ibuprofen and aspirin"<<endl;
 				}
 				else if(caus==13)
 			   	{
-					cout<<"medicine....\n";
-					cout<<" metformin and linagliptin ";
+					cout<<"medicine......"<<endl;
+					cout<<" metformin and linagliptin "<<endl;
 				}
 				else if(caus==14)
 			   	{
-					cout<<"medicine....\n";
-					cout<<" ciprofloxacin and levofloxacin ";
+					cout<<"medicine......"<<endl;
+					cout<<" ciprofloxacin and levofloxacin "<<endl;
 				}
 				else if(caus==15)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"hrig , rabies vaccine";
+					cout<<"medicine...."<<endl;
+					cout<<"hrig , rabies vaccine"<<endl;
 				}
 				else if(caus==16)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"liv52";
+					cout<<"medicine...."<<endl;
+					cout<<"liv52"<<endl;
 				}
 				else if(caus==17)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"zithromax and vibramycin";
+					cout<<"medicine...."<<endl;
+					cout<<"zithromax and vibramycin"<<endl;
 				}
 				else if(caus==18)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"rifampin , naltrexone and cholestyramine ";
+					cout<<"medicine...."<<endl;
+					cout<<"rifampin , naltrexone and cholestyramine "<<endl;
 				}
 				else if(caus==19)
 			   	{
-					cout<<"medicine....\n";
+					cout<<"medicine...."<<endl;
 					cout<<"syprofloxacyn";
 				}
 				else if(caus==20)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"theophylline";
+					cout<<"medicine...."<<endl;
+					cout<<"theophylline"<<endl;
 				}
 				else if(caus==21)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"citalopram and sertraline";
+					cout<<"medicine......"<<endl;
+					cout<<"citalopram and sertraline"<<endl;
 				}
 				else if(caus==22)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"refollium and biotin";
+					cout<<"medicine....."<<endl;
+					cout<<"refollium and biotin"<<endl;
 				}
 				else if(caus==23)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"minoxidil and finasteride";
+					cout<<"medicine....."<<endl;
+					cout<<"minoxidil and finasteride"<<endl;
 				}
 				else if(caus==24)
 			   	{
-					cout<<"medicine....\n";
-					cout<<"tetracyline and macrolide";
+					cout<<"medicine....."<<endl;
+					cout<<"tetracyline and macrolide"<<endl;
 				}		
 			
 			cout<<"\nif you want to continue to find medicine of another disease press y else n";
@@ -301,7 +301,6 @@ class area
 	char area17[30],area18[30],area19[30],area20[30],area21[30],area22[30],area23[30],area24[30];
 	char area25[30];
 	int rs;
-//	string area30[25]={"bharat nagar","brown road","chaura bazar","civil lines","dholewal chownk","dugri","ferozpur road","field ganj","focal point","ghumar mandi","gill road","gt road","janta nagar","kichlu nagar","kochar market chownk","link road","industrial area ","madhopuri","miller ganj","model town","model town extension","pakhowal road","sabzi mandi road","sher pur chownk","transport nagar"};
 	public:
 		area()
 		{
@@ -333,31 +332,31 @@ class area
 		}
 		void disp_list()
 		{
-			cout<<"bharat nagar=13 /n brown road=19 /n chaura bazar=16 /n civil lines=1 /n dholewal chownk =5/n";
-			cout<<" dugri=18 /n ferozpur road=17 /n field ganj=15 /n focal point=4 /n ghumar mandi=3 /n gill road=9/n";
-			cout<<" janta nagar /n kichlu nagar=2 /n kochar market chownk=14 /n link road=20/n industrial area=6/n";
-			cout<<" madhopuri=21 /n miller ganj=22 /n model town=11 /n model town extension==12 /n pakhowal road=23 /n ";
-			cout<<" sabzi mandi road=24 /n sher pur chownk=7 /n transport nagar=25\n gt road=10\n";
+			cout<<"bharat nagar=13 \n brown road=19 \n chaura bazar=16 \n civil lines=1 \n dholewal chownk =5\n";
+			cout<<" dugri=18 \n ferozpur road=17 \n field ganj=15 \n focal point=4 \n ghumar mandi=3 \n gill road=9\n";
+			cout<<" janta nagar \n kichlu nagar=2 \n kochar market chownk=14 \n link road=20\n industrial area=6\n";
+			cout<<" madhopuri=21 \n miller ganj=22 \n model town=11 \n model town extension==12 \n pakhowal road=23 \n ";
+			cout<<" sabzi mandi road=24 \n sher pur chownk=7 \n transport nagar=25 \n gt road=10\n";
 		}
 		void get_resi()
 		{
-			cout<<"choose your locality from above given list where your house is near";
+			cout<<"choose your locality from above given list where your house is near="<<endl;
 			cin>>rs;
 			
 			if(rs==1||rs==2||rs==3)
 			{
-				cout<<"dmc is the best hospital near you";
+				cout<<"dmc is the best hospital near you"<<endl;
 				if(rs==1)
 				{
-					cout<<"civil line \n|\n|\n|\n|\n|\n|\n|\n\/\n baba than singh chownk\n|\n|\n|\n|\n|\n|\n|\n\/\n dmc";
+					cout<<"civil line \n|\n|\n|\n|\n|\n|\n|\n \/\n baba than singh chownk\n|\n|\n|\n|\n|\n|\n|\n \/ \n dmc";
 				}
 				else if(rs==2)
 				{
-					cout<<"kichliu nagar\n|\n|\n|\n|\n|\n|\n|\n\/ \n dugri\n|\n|\n|\n|\n|\n|\n|\n\/ \ndmc";
+					cout<<"kichliu nagar\n|\n|\n|\n|\n|\n|\n|\n \/ \n dugri\n|\n|\n|\n|\n|\n|\n|\n \/ \ndmc";
 				}
 				else if(rs==3)
 				{
-					cout<<"ghumar mandi\n|\n|\n|\n|\n|\n|\n|\n\/ \nsuhani building chownk\n|\n|\n|\n|\n|\n|\n|\n\/ \ndmc";
+					cout<<"ghumar mandi\n|\n|\n|\n|\n|\n|\n|\n \/ \nsuhani building chownk\n|\n|\n|\n|\n|\n|\n|\n \/ \ndmc";
 				}
 			}
 			else if(rs==4||rs==5||rs==6||rs==7)
@@ -365,19 +364,19 @@ class area
 				cout<<"sps hospital is best hospital near you";
 				if(rs==4)
 				{
-				cout<<"focal point \n|\n|\n|\n|\n|\n|\n|\n\/ \n take jamuu delhi road\n|\n|\n|\n|\n|\n|\n|\n\/ \nnear hotel riyasat"	;
+				cout<<"focal point \n|\n|\n|\n|\n|\n|\n|\n \/ \n take jamuu delhi road\n|\n|\n|\n|\n|\n|\n|\n \/ \nnear hotel riyasat"	;
 				}
 				else if(rs==5)
 				{
-				cout<<"dholewal chownk \n|\n|\n|\n|\n|\n|\n|\n\/ \n take jamuu delhi road\n|\n|\n|\n|\n|\n|\n|\n\/ \n near hotel riyasat"	;
+				cout<<"dholewal chownk \n|\n|\n|\n|\n|\n|\n|\n \/ \n take jamuu delhi road\n|\n|\n|\n|\n|\n|\n|\n \/ \n near hotel riyasat"	;
 				}
 				else if(rs==6)
 				{
-					cout<<"industrial area  \n|\n|\n|\n|\n|\n|\n|\n\/ \n rk road  \n|\n|\n|\n|\n|\n|\n|\n\/ \n delhi multan road  \n-\n-\n-\n-\n-\n-\n-\n-\n>\n near hotel riyasat";
+					cout<<"industrial area  \n|\n|\n|\n|\n|\n|\n|\n \/ \n rk road  \n|\n|\n|\n|\n|\n|\n|\n \/ \n delhi multan road  \n-\n-\n-\n-\n-\n-\n-\n-\n \/ \n near hotel riyasat";
 				}
 				else if(rs==7)
 				{
-					cout<<"sherpur chownk\n|\n|\n|\n|\n|\n|\n|\n\/ \n take delhi multan road\n|\n|\n|\n|\n|\n|\n|\n\/ \n near hotel riyasat"	;
+					cout<<"sherpur chownk\n|\n|\n|\n|\n|\n|\n|\n \/ \n take delhi multan road\n|\n|\n|\n|\n|\n|\n|\n \/ \n near hotel riyasat"	;
 				}
 			}
 			else if(rs==9||rs==10)
@@ -385,7 +384,7 @@ class area
 				cout<<"didar hospital is best hospital near you";
 				 if (rs==9)
 				{
-					cout<<"gill road \n|\n|\n|\n|\n|\n|\n|\n\/ \n didar hospital ";
+					cout<<"gill road \n|\n|\n|\n|\n|\n|\n|\n \/ \n didar hospital ";
 				}
 				else if(rs==10)
 				{
@@ -492,7 +491,7 @@ class majordisease:public area
 			{
 				cout<<"enter your disease";
 				gets(g_disease);
-			//	return (g_disease);
+			
 			}
 			void check_disease()
 			{
